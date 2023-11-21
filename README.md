@@ -1,3 +1,29 @@
+## Problem Statement:
+- Consider there’s 1 table which contains 8 columns.
+
+### Input Table:
+Out of 8, I want 2 columns to perform standardisation.
+
+### Output Table:
+- We should have 10 columns, 2 columns with standardised value <br/> 
+Ex: <br/>
+Degree Column <br/>
+B. Sc <br/>
+B.Sc <br/>
+Bachelor of Science <br/>
+Bachelor of science <br/>
+Bachelor of Science. <br/>
+<br/>
+All these values are corresponding to same value, which is Bachelor of Science<br/>
+
+Now to over come this, we should create a mapping table which contains old entries and standardise entires which should look for the standardize data. <br/> 
+
+Overall we should use 3 tables <br/>
+
+Input table <br/>
+Lookup table (2 table) <br/>
+Output table <br/>
+
 ## Database Schema
 
 The project utilizes three main tables:
